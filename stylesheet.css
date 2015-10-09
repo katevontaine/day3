@@ -175,7 +175,8 @@ div section section a{
   margin-left: -4px;
   padding-bottom: 200px;
   position: static;
-
+  opacity:0.6;
+  filter:alpha(opacity=60)
 }
 
 .one {
@@ -254,7 +255,7 @@ footer img{
 
 }
 
-footer ul li{
+footer ul {
   display: inline-block;
   margin: 0;
   color: white;
@@ -264,8 +265,7 @@ footer ul li{
 
 .squarepics a:hover{
  background-color: #003366;
- opacity:0.6;
- filter:alpha(opacity=60)
+
  width: 24%;
  height: 24%;
  margin: 0;
