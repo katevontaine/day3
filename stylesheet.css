@@ -44,7 +44,6 @@ header h5{
 header a{
   padding-left: 80%;
   max height:20px;
-  max-width: 50px;
   z-index: 1000;
   display: inline-block;
   position: relative;
@@ -169,15 +168,45 @@ div section section a{
 }
 
 .image {
-  width: 23%;
-  max-height: 285px;
+  width: 21%;
+  margin:0auto;
+  display: inline-block;
+  vertical-align: top;
+  opacity: .5;
+  color:white;
+}
+/*.one, .two, .three, .four img:hover{
+  opacity:1;
+}*/
+
+.squarepics{
+  height:265px;
+  width: 1520px;
+  margin:0 auto;
+  background-color:#003366;
+}
+.squarepics a{
+  color: white;
+  opacity: 0;
+  height: 265px;
+  width:265px;
+  padding: 0;
+  margin: 0;
+
+}
+.squarepics a:hover{
+  opacity: .7;
+  color: #003366;
+}
+
+  /*max-height: 200px;
   display: inline-block;
   margin-left: -4px;
   padding-bottom: 200px;
   position: static;
-  opacity:0.6;
-  filter:alpha(opacity=60)
-}
+  opacity:0.7;
+  filter:alpha(opacity=60)*/
+
 
 .one {
   background-image: url("https://docs.google.com/uc?id=0B7T_dEtTqCABOVktanhPYVZIeHc");
@@ -185,6 +214,7 @@ div section section a{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:265px;
 }
 
 .two {
@@ -193,6 +223,8 @@ div section section a{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:265px;
+
 }
 
 .three {
@@ -201,6 +233,8 @@ div section section a{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:265px;
+
 }
 
 .four {
@@ -209,11 +243,12 @@ div section section a{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+  height:265px;
 
+}
+/*
  h2{
-  display: inline;
-  position:absolute;
+  display: inline-block;
   z-index: 999;
   margin:0;
   -webkit-margin-before: 0em;
@@ -221,7 +256,8 @@ div section section a{
   padding:200px 0 0 100px;
   color:white;
   font-family: 'Homenaje', sans-serif;
-}
+  vertical-align: top;
+}*/
 
 footer{
   background-color: #003366;
@@ -245,36 +281,51 @@ footer img{
   margin: 0;
 
 }
-
-.squarepics h2{
-  font-size: 40px;
-  color:##003366;
-  margin:0 auto;
-  padding-left: 15%;
-  font-family: 'Homenaje', sans-serif;\
+/*.squarepics img{
+  width: 100%;
+  margin:0auto;
+  opacity: .5;
+  vertical-align: top;
 
 }
+.squarepics{
+  background-color: #003366;
+  width: 100%;
+  height:300px;
+  vertical-align: top;
+
+}
+
+.squarepics h2 a{
+  font-size: 30px;
+  color:white;
+  margin:0 auto;
+  padding: 0 0px 0 0px;
+  font-family: 'Homenaje', sans-serif;\
+  max-width: 24%;
+}*/
 
 footer ul {
   display: inline-block;
   margin: 0;
   color: white;
   padding-left: 40%;
+  clear: both;
 
 }
+/*
+.squarepics a, img:hover{
+  opacity:1;
+}*/
 
-.squarepics a:hover{
- background-color: #003366;
-
+ /*background-color: #003366;
  width: 24%;
  height: 24%;
  margin: 0;
  display:inline-block;
- padding: 0 0 50px 200px;
  color: white;
  font-family: 'Homenaje', sans-serif;
- margin-left: -4px;
-}
+ margin-left: -4px;*/
 
 
 
